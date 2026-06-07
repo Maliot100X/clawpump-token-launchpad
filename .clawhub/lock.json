@@ -3,7 +3,7 @@
   "skills": {
     "solana": {
       "version": "1.0.0",
-      "installedAt": 1780805896006
+      "installedAt": 1780812613313
     },
     "solana-dev": {
       "version": "1.0.0",
@@ -11,7 +11,11 @@
     },
     "pump-fun": {
       "version": "1.0.1",
-      "installedAt": 1780809047561
+      "installedAt": 1780812667403
+    },
+    "meteora-analyst": {
+      "version": "1.1.0",
+      "installedAt": 1780812701752
     }
   }
 }
