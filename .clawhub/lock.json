@@ -8,6 +8,10 @@
     "solana-dev": {
       "version": "1.0.0",
       "installedAt": 1780805913275
+    },
+    "pump-fun": {
+      "version": "1.0.1",
+      "installedAt": 1780809047561
     }
   }
 }

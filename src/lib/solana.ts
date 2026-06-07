@@ -1,15 +1,24 @@
-// ClawPump Solana configuration
-export const NETWORK = "devnet";
+// ClawPump Solana configuration - REAL VALUES
+export const NETWORK = "mainnet-beta";
 
-export const CLAW_TOKEN_MINT =
-  process.env.NEXT_PUBLIC_CLAW_TOKEN_MINT ||
-  "CLAW1111111111111111111111111111111111111111";
+// Real CLAW token mint from research
+export const CLAW_TOKEN_MINT = 
+  process.env.NEXT_PUBLIC_CLAW_MINT || 
+  "DMvsGEm3VZLfJCyQUnTnhLdH7vyFP9oQSFcrcrgBCLAW";
 
-export const METEORA_DBC_PROGRAM_ID =
+// Meteora DBC program for custom bonding curves
+export const METEORA_DBC_PROGRAM_ID = 
   "dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN";
 
-export const RPC_ENDPOINT =
-  process.env.NEXT_PUBLIC_RPC_URL ||
-  `https://api.mainnet-beta.solana.com`;
+// ClawPump API endpoints
+export const CLAWPUMP_API = "https://clawpump.vercel.app";
+export const CLAWPUMP_DOCS = "https://clawpump.tech/docs";
 
-export const COMMITMENT: "confirmed" = "confirmed";
+// Official ClawPump token
+export const OFFICIAL_CLAW_TOKEN = "739dnZEG4yaBWFsY8L8ZwrfhGG6dhtCSercW8Umspump";
+
+export const RPC_ENDPOINT =
+  process.env.NEXT_PUBLIC_RPC_URL || 
+  "https://api.mainnet-beta.solana.com";
+
+export const COMMITMENT = "confirmed" as const;
