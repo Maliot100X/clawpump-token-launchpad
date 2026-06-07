@@ -1,0 +1,19 @@
+{
+  "name": "clawpump-token-launchpad",
+  "version": "0.1.0",
+  "description": "ClawPump Token Launch Platform - CLAW as quote token on Solana",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@solana/web3.js": "^1.95.0",
+    "@metaplex-foundation/mpl-token-metadata": "^3.0.0"
+  }
+}

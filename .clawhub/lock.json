@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "skills": {
+    "solana": {
+      "version": "1.0.0",
+      "installedAt": 1780805896006
+    },
+    "solana-dev": {
+      "version": "1.0.0",
+      "installedAt": 1780805913275
+    }
+  }
+}
